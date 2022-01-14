@@ -1,0 +1,36 @@
+
+.link {
+  transition: color 300ms;
+  text-decoration: none;
+  &:hover {
+    transition: color 300ms;
+    color: red;
+  }
+}
+
+.black {color: black;}
+.red {color: rgb(80, 8, 8);}
+.yellow {color: rgb(70, 70, 9)}
+.bold {font-weight: bold;}
+.title {letter-spacing: 4px;}
+.line-jump {padding-bottom: 3em}
+.bg-lightgray {background: rgb(114, 112, 112);}
+.police {font-family: cursive; text-align: justify; padding: 1em;}
+.shadowed {text-shadow: 5px 5px 8px rgb(136, 134, 134); transition: text-shadow 300ms;
+  &:hover {text-shadow: 5px 5px 5px rgb(190, 187, 187); transition: text-shadow 300ms;
+  }
+}
+.adapt {max-height: 400px; width: 18vw;}
+.centered {text-align: center;}
+.f-secondary {color: gray;}
+.f-primary {color: blue;}
+.f-warning {color: yellow;}
+.f-danger {color: red;}
+
+.body {
+  padding: 0 10% 0 10%;
+  @media (max-width: 700px) {padding: 0 5% 0 5%;}
+}
+
+
+
